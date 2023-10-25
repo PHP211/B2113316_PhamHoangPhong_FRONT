@@ -1,6 +1,6 @@
 <template>
     <div v-if="contact" class="page">
-        <ContactForm :contact="contact" @submit:contact="updateContact" @deleteContact="deleteContact"/>
+        <ContactForm :contact="contact" @submit:contact="updateContact" @delete:contact="deleteContact"/>
         <p>{{ message }}</p>
     </div>
 </template>
